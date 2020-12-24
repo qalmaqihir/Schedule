@@ -11,7 +11,7 @@ public class Schedule extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("Schedule.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("RescheduleApp");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
